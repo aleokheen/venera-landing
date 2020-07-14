@@ -67,7 +67,7 @@ export default class Header extends Component {
                 <a href="https://redis.io">Redis</a>
               </div>
               <div className="description">
-                <b>Redis</b> используем как хранилище сокетных подключений и прочей информации
+                <b>Redis</b> используем для временного хранения информации о сокетах
               </div>
             </div>
 
