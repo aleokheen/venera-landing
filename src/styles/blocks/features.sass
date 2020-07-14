@@ -1,0 +1,29 @@
+#block-features
+
+  .container
+
+    .features
+      display: grid
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+      grid-gap: 100px 80px
+      margin-top: 80px
+
+      .item
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+
+        .icon
+          width: 100px
+
+        .title
+          margin-top: 20px
+          font-weight: bold
+          font-size: 16pt
+          line-height: 1.5em
+
+        .description
+          margin-top: 10px
+          font-size: 11pt
+          line-height: 1.7em
